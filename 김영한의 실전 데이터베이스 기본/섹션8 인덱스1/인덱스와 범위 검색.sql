@@ -1,0 +1,4 @@
+EXPLAIN SELECT * FROM items WHERE price BETWEEN 50000 AND 10000;
+CREATE INDEX idx_items_price ON items(price);
+
+SELECT * FROM items WHERE price BETWEEN 50000 AND 100000;
